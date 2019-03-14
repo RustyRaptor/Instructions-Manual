@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Created by John Paul Minda, PhD			%%
+%% Professor of Psychology					%%
+%% The Brain and Mind Institute				%%
+%% The University of Western Ontario		%%	
+%% London, ON N6A 5C2						%%
+%%											%%
+%% Version 1.2								%%	
+%% Feb 13, 2018								%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+\usepackage{fullpage}
+
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[scaled=1]{helvet}
+\usepackage[helvet]{sfmath}
+\everymath={\sf}
+
+\usepackage{parskip}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{lipsum}
+\usepackage[svgnames]{xcolor}
+\usepackage[tikz]{bclogo}
+\usepackage{mdframed}
+
+\newenvironment{important}[1][]{%
+   \begin{mdframed}[%
+      backgroundcolor={yellow!15}, hidealllines=true,
+      skipabove=0.7\baselineskip, skipbelow=0.7\baselineskip,
+      splitbottomskip=2pt, splittopskip=4pt, #1]%
+   \makebox[0pt]{% ignore the withd of !
+      \smash{% ignor the height of !
+         \fontsize{20pt}{20pt}\selectfont% make the ! bigger
+         \hspace*{-19pt}% move ! to the left
+         \raisebox{5pt}{% move ! up a little
+            {\color{yellow!100!white}\sffamily\bfseries Caution! }% type the bold red !
+         }%
+      }%
+   }%
+}{\end{mdframed}}
+
+\newenvironment{note}[1][]{%
+   \begin{mdframed}[%
+      backgroundcolor={blue!15}, hidealllines=true,
+      skipabove=0.7\baselineskip, skipbelow=0.7\baselineskip,
+      splitbottomskip=2pt, splittopskip=4pt, #1]%
+   \makebox[0pt]{% ignore the withd of !
+      \smash{% ignor the height of !
+         \fontsize{20pt}{20pt}\selectfont% make the ! bigger
+         \hspace*{-19pt}% move ! to the left
+         \raisebox{5pt}{% move ! up a little
+            {\color{blue!100!white}\sffamily\bfseries Note: }% type the bold red !
+         }%
+      }%
+   }%
+}{\end{mdframed}}
+
+\title{Categorization Lab Manual}
+\author{John Paul Minda, PhD}
+%\company{The University of Western Ontario}
+\setcounter{tocdepth}{2}
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Introduction} 
+The following instructions are meant to teach the reader how to use the Westscott 12” Plastic Paper Trimmer, including how to load paper onto the mechanism, how to effectively slice the paper at multiple angles, and how to avoid damaging both the paper and the mechanism \newline
+\begin{important}
+\newline
+ Blade cartridge is extremely sharp. To avoid injury keep fingers out of blade cartridge.
+\end{important}
+
+
+
+
+\subsection{About the Westcott 12" Paper Trimmer}
+The Westscott 12” Plastic Paper Trimmer is a standard office item used to make straight cuts across several pieces of paper at one time. This is helpful in a variety of ways, from cutting large pieces of paper into smaller flashcards to trimming the irregular edges off of scrap paper for crafts.
+
+The Westcott Paper Trimmer slices through paper using two blades located under the Blade Holders, two plastic buttons that slide along the Ruler. A small stack of paper is placed on the Table - the base of the paper cutter - and under the Ruler.  Once the paper is aligned against the desired Scaleline Guide, Grid Line or Angle Guideline (located on the Table), the user presses down on one Blade Holder and slides it across the ruler; this effectively extends the blade into the paper and slices through it in a straight line. If some of the paper remains uncut, the process is repeated with the second Blade Holder.
+
+
+
+\section{Usage}
+
+\subsection{Setup}
+
+\begin{enumerate}
+
+    \item If the Paper Trimmer was used before, remove any excess paper from the Blade Track.
+    \item Make sure both Blade Holders are moved all the way to one side of the ruler.
+    \item Take the paper that is to be cut (10 pages at the most) and make certain the edges of the pages are aligned.
+    \ \newline
+\begin{note}
+    \ \newline
+    Step 3 can be skipped if scrap paper is used
+\end{note}
+    
+\end{enumerate}
+
+
+
+
+\subsection{Using the paper trimmer}
+
+\begin{enumerate}
+    \item Lift the Ruler to the “up” position.
+    \item Place the prepared paper on the Westcott Table, sliding it underneath the Ruler
+    \item Align the paper against the preferred Grid Line or Angle Guideline. Use the Scaleline Guide to choose the desired width of the cut paper.
+    \item Lower the Ruler to the “down” position, ensuring that both Blade Holders are still all the way to one side.
+    \item Press down on the innermost Blade Holder.
+    \item Slide the Blade Holder all the way to the other side of the Ruler.
+    \ \newline
+\begin{important}
+\newline
+ Stop immediately if there is too much resistance, for this may damage the product. If this occurs, check for excessive debris or remove several pieces of paper until the Blade Holder glides easily across
+\end{important}
+    
+    \item Lift the Ruler and check if the blade cut through all layers of paper on the table.
+    \ \newline
+    \begin{note}
+        \ \newline
+        If some paper remains uncut, repeat step 5 - 6 with the second Blade Holder.
+    \end{note}
+    \item Once all of the paper is cut, remove the paper from the table.
+
+\end{enumerate}
+
+\section{Troubleshooting}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|}
+\hline
+Problem & Solution \\ \hline
+Blade is not cutting all of the paper & \begin{tabular}[c]{@{}l@{}}Ensure that the Blade Holders are held down firmly before \\ sliding them across the Ruler.\\ \\ Check if there is any unnecessary debris in the Blade Track.\\ \\ Check if the blades in the Blade Holders are damaged.\\ \\ If the problem continues, remove several pieces of paper \\ before trying again.\end{tabular} \\ \hline
+The Blade Holders are stuck & \begin{tabular}[c]{@{}l@{}}Check for debris along the Ruler, in the Blade Track,\\ and underneath the Blade Holders.\end{tabular} \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+\end{document}
